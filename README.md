@@ -29,26 +29,26 @@ Below is a snapshot of the deployed and fully functional application:
 
 ## 🚀 How to Run the Project  
 
-1. Clone the repository:  
-   ```bash  
+**1. Clone the repository:** 
+   
    git clone <repository-url>  
    cd <repository-folder>
    
-2. Build and start the containers:
+**2. Build and start the containers:**
+    
+    docker-compose up --build  
 
-docker-compose up --build  
-
-3.Access the application:
+**3.Access the application:**
 
 - Frontend: http://localhost:<frontend-port>
 - Backend: http://localhost:<backend-port>
 - MongoDB: Connected internally within the Docker network.
 
-4. 🛠️ Stop the containers:
+**4.🛠️ Stop the containers:**
    
-docker-compose down  
+   docker-compose down  
 
-##🌟 Learnings
-Mastered Dockerfile and Docker Compose for multi-container deployment.
-Improved understanding of container networking and isolation.
-Gained hands-on experience with deploying scalable applications in a containerized environment.
+## 🌟 Learnings
+- Mastered Dockerfile and Docker Compose for multi-container deployment.
+- Improved understanding of container networking and isolation.
+- Gained hands-on experience with deploying scalable applications in a containerized environment.
